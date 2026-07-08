@@ -17,12 +17,11 @@
     background-color: #0e0430;
     width: fit-content;
     height:75%; 
-    display: flex;
 
 }
 
 .windowheader {
-    display: flex;
+
     color:white
 
 }
