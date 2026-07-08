@@ -8,3 +8,21 @@
     cursor: pointer; 
     color: white;
 }
+
+.window {
+    border: solid;
+    border-color:white;
+    border-radius: 16px;
+    position: absolute;
+    background-color: #0e0430;
+    width: fit-content;
+    height:75%; 
+    display: flex;
+
+}
+
+.windowheader {
+    display: flex;
+    color:white
+
+}
