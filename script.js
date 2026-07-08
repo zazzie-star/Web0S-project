@@ -1,10 +1,8 @@
-<script>
-    function updateTime() {
-        var WHATNOW = new Date().toLocaleString();
-        var timeText = document.querySelector("#timeElement");
-        timeText.innerHTML = WHATNOW;
+function updateTime() {
+     var WHATNOW = new Date().toLocaleString();
+     var timeText = document.querySelector("#timeElement");
+     timeText.innerHTML = WHATNOW;
     }
 
-    setInterval(updateTime, 1000);
+setInterval(updateTime, 1000);
    
-</script>
