@@ -13,9 +13,19 @@
             <p> 
                 The ISS-OS 
             </p>
-            <p> 
-                08/07/2026 3:31 PM 
+            <p id="timeElement"
+                style="">
+                Time
             </p>
         </div>
+        <script>
+            var WHATNOW = new Date().toLocaleString();
+            var timeText =
+        document.querySelector("#timeElement");
+            timeText.innerHTML = WHATNOW
+
+        
+
+        </script>
     </body>
 </html>
