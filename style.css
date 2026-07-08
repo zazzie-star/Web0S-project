@@ -1,0 +1,10 @@
+.className {
+    property1: 5;
+    property2: "16px";
+    property3: "hidden";
+}
+
+.closebutton {
+    cursor: pointer; 
+    color: white;
+}
