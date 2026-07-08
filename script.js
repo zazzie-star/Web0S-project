@@ -56,7 +56,7 @@ function closeWindow(element) {
 }
 
 function openWindow(element) {
-    element.style.display = "flex"
+    element.style.display = "block"
 }
 
 var welcomeScreenClose = 
