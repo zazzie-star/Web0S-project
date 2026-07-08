@@ -49,7 +49,7 @@ function dragElement(element) {
 }
 
 var welcomeScreen = 
-document.querySelector("welcome")
+document.querySelector("#welcome")
 
 function closeWindow(element) {
     element.style.display = "none"
