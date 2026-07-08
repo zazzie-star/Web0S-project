@@ -15,8 +15,8 @@ function dragElement(element) {
     var currentX = 0;
     var currentY = 0;
     
-    if (document.getElementById(element.welcome + "Welcome to ZazzieStar's ISS-WebOS!")) {
-        document.getElementById(element.welcome + "Welcome to ZazzieStar's ISS-WebOS!").onmousedown = startDragging;
+    if (document.getElementById(element.id + "header")) {
+        document.getElementById(element.id + "header").onmousedown = startDragging;
     } else {
         element.onmousedown = startDragging
     }
