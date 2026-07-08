@@ -23,9 +23,10 @@
             var timeText =
         document.querySelector("#timeElement");
             timeText.innerHTML = WHATNOW
-
-        
-
+            setInterval(function () {
+                document.querySelector("#timeElement").innerHTML
+                = new Date().toLocaleString();
+            }, 1000);
         </script>
     </body>
 </html>
