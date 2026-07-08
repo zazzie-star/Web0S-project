@@ -86,7 +86,8 @@ function deselectIcon(element) {
     element.classList.remove("selected");
     selectedIcon = undefined
 }
-
+// this is how i can make notes
+//cool!
 function handleIconTap(element) {
     if (element.classList.contains("selected")) {
         deselectIcon(element)
