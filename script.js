@@ -47,3 +47,14 @@ function dragElement(element) {
         document.onmousemove = null;
     }
 }
+
+var welcomeScreen = 
+document.querySelector("welcome")
+
+function closeWindow(element) {
+    element.style.display = "none"
+}
+
+function openWindow(element) {
+    element.style.display = "flex"
+}
