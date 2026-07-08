@@ -15,8 +15,9 @@
     border-radius: 16px;
     position: absolute;
     background-color: #0e0430;
-    width: fit-content;
-    height:75%; 
+    width: 600px;
+    height: 400px; 
+    overflow: auto;
 
 }
 
