@@ -98,3 +98,10 @@ function handleIconTap(element) {
 }
 
 dragElement(document.querySelector("#factme"))
+
+var factmeScreen = document.querySelector("#factme")
+
+var factmeScreenClose = document.querySelector("#factmeclose")
+
+factmeScreenClose.addEventListener("click", () =>
+closeWindow(factmeScreen));
