@@ -96,3 +96,5 @@ function handleIconTap(element) {
         selectIcon(element)
     }
 }
+
+dragElement(document.querySelector("#factme"))
